@@ -20,7 +20,7 @@ logging.basicConfig(level=logging.INFO,
 
 dirr = 'test'  # Указание папки в которой хранятся файлы
 
-BASE_DIR = os.path.join(f'C:/Users/gr/Desktop/cert/{dirr}')  # директория для хранения файлов
+BASE_DIR = os.path.join(f'C:/Users/Desktop/{dirr}')  # директория для хранения файлов
 
 items = os.listdir(BASE_DIR)  # список файлов в папке
 
